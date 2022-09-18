@@ -1,0 +1,13 @@
+/*
+Integer #5
+ */
+
+fun myFun (a: Int, b: Int) {
+    var c = a%b
+    println("$a длина первого отрезка и $b длина второго")
+    println("незанятая часть отрезка составила $c")
+}
+
+fun main() {
+    myFun(30, 4)
+}
