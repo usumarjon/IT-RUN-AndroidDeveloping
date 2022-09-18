@@ -1,0 +1,12 @@
+/*
+
+*/
+fun byteToKilo(x: Int){
+    var kilo = x / 1024
+    var ostatok = x % 1024
+    println("file is $x bytes and $kilo kilobyte and $ostatok byte(s)")
+}
+
+fun main() {
+    byteToKilo(1725)
+}
