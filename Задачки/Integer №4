@@ -1,2 +1,15 @@
+/*
+Integer #4
+ */
+
+fun myFun (a: Int, b: Int) {
+    var c = a/b
+    println("$a длина первого отрезка и $b длина второго")
+    println("сколько отрезвков $b поместится в $a")
+    println("всего поместится $c отрезков")
+
+}
+
 fun main() {
+    myFun(30, 4)
 }
