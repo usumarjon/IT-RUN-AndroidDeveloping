@@ -1,0 +1,17 @@
+/*
+Integer #10
+ */
+
+fun findNum() {
+    println("Enter your 3-digit number")
+    var number = readLine()!!.toInt()
+    println("Your number is $number")
+    var last = number%10
+    println("Your last digit is: $last")
+    var middle = (number % 100)/10
+    println("Your middle digit is: $middle")
+}
+
+fun main() {
+    findNum()
+}
