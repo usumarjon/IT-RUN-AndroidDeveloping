@@ -1,0 +1,9 @@
+/*
+Boolean #2
+ */
+
+fun main() {
+    println("Enter Your Number")
+    val number = readLine()!!.toInt()
+    println(if(number/2 == 0) "Your number is odd" else "Your number is even")
+}
