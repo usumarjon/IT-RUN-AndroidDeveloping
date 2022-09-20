@@ -1,0 +1,11 @@
+/*
+Boolean #4
+ */
+
+fun main() {
+    println("Enter Your First Number")
+    val number = readLine()!!.toInt()
+    println("Enter Your Second Number")
+    val number2 = readLine()!!.toInt()
+    if(number > 2 && number2 <= 3) println("your first number is greater than 2 and your second number is less or equal 3") else("your numbers are not correct")
+}
