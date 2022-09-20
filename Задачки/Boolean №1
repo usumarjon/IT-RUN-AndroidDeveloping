@@ -1,0 +1,9 @@
+/*
+Boolean #1
+ */
+
+fun main() {
+    val number = readLine()!!.toInt()
+    println("Enter Your Number")
+    println(if(number >= 0) "Your number is positive" else "Your number is negative")
+}
